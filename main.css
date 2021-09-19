@@ -1,0 +1,419 @@
+body{
+    /*background-image: url('image/img8.png'); 
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    background-color: rgb(214, 205, 205);
+        
+}
+nav ul{
+       list-style-type: none;
+       
+}
+nav li{
+   float: left;
+    width: 15%;
+    text-align: right;
+   padding-right: auto;
+}
+
+nav ul ::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+nav{
+    
+    background-color: rgb(238, 235, 235);
+    width: 100%;
+    
+}
+nav a:hover{
+    color: red;
+}
+
+a{
+    color:white;
+    text-align: right;
+    width: 1512px;
+    height: 100px;
+   /*
+    padding-bottom: 96px;
+    padding-left:1px;
+    padding-right: 1PX;
+    font-weight: bold;*/
+     font-size: 25px;   
+}
+
+.corps1{
+   
+ background-image: url('image/img8.png') ;
+background-attachment: fixed;
+ background-repeat: no-repeat;
+    background-size: cover;
+    width: 1512px;
+    height: 740px;
+    /*padding: 0px;
+    text-align: center;*/
+    display: block;
+    margin: auto;
+}
+h1{
+    color: sienna;
+    font-size: 40px;
+padding-top: 120px;
+padding-left: 300px;
+font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
+.h1_formation{
+    color: sienna;
+    font-size: 40px;
+    text-align: center;
+padding-top: 80px;
+padding-left: 30px;
+font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
+.h1_bienvenue{
+    color: white;
+    font-size: 40px;
+padding-top: 120px;
+padding-left: 300px;
+font-weight: bold;
+text-decoration: none;
+    text-underline-position: none;
+}
+h2{
+   
+    color: white;
+    font-style: 50px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 350px;
+}
+p{
+    font-size: 25px;
+}
+span{
+    color: sienna;
+    font-weight: bold;
+}
+.img1{
+    background-image: url('image/consty011.jpg');
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: block;
+   
+}
+
+.div1_biogra_conteneur{
+    display: flex;
+
+}
+
+.div1_biographie{
+    
+    padding-left: 10PX;
+    padding-bottom: 300PX;
+    width: 200PX;
+    height: 200PX;
+    margin: auto;
+}
+
+.img1_biographie{
+background-image: url('image/consty.1.jpg');
+    background-repeat: no-repeat;
+        background-image: cover;
+        background-size: 300px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        display: block;
+    
+}
+
+.div2_biographie{
+padding-left: 150PX;
+padding-right: 50px;
+
+}
+.div3_biographie{
+    padding-top: 400PX;
+    padding-bottom: 150px;
+    padding-right: 100px;
+    width: 200PX;
+    height: 200PX;
+    margin: auto;
+
+}
+.img2_biographie{
+    background-image: url('image/consty_house.jpg');
+    background-repeat: no-repeat;
+        background-image: cover;
+        background-size: 300px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        display: block;
+}
+/*.corps1{
+    background-image: url('image/img4.png');
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    width: 100%;
+    height: auto;
+     padding-bottom:0px;
+     
+     padding-left:1px;
+     padding-top: 0px;
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+     
+     border-radius: 1%;
+    
+     min-width: 88%;
+     min-height: auto;
+   
+}*/
+
+
+.div_formation{
+    background-image: url('image/OPENCLASS1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: cover;
+     background-size: 1500px;
+    width: 600px;
+    height: 600px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 150px;
+    padding-right: 30px;
+   padding-left: 30px;
+    margin: auto;
+    border-radius: 5%;
+    
+}
+li{
+   color: white; 
+}
+.p_formation{
+    color: white;
+}
+
+.div_compe_conteneur{
+    width: 1400px;
+    height: 550px;
+    display: flex;
+}
+
+.div_font-end{
+    background-image: url('image/pot.jpg');
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-image: cover; 
+width: 500px;
+height: 500px;
+margin-left: 80px;
+border-radius: 5%;
+text-align: center;
+color: black;
+}
+
+.div_back-end{
+    background-image: url('image/pot.jpg');
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-image: cover;
+    width: 500px;
+    height: 500px;
+   margin-left: 15px;
+   border-radius: 5%; 
+   text-align: center;
+   color: black;
+}
+
+.div_autre{
+    background-image: url('image/pot.jpg');
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-image: cover;
+    width: 500px;
+    height: 500px;
+   margin-left: 15px;
+   border-radius: 5%; 
+   text-align: center;
+   color: black;
+}
+
+}
+.h1_competence{
+    padding-left: 550px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+progress{
+    -webkit-appearance: none;
+    width: 50%;
+    height: 35PX;
+    border: 1PX solid pink;
+    overflow: hidden;
+    color: blue;
+    border-radius: 10PX;
+    &::-webkit-progress-bar{
+        background: blue;
+    }
+        &::-webkit-progress-value{
+            background: rgb(188, 247, 25);
+    }
+}
+ .p_competence{
+     font-size: 30px;
+     color:sienna;
+     font-weight: bold;
+     text-decoration: underline;
+    text-underline-position: under;
+ }
+
+
+ .div_reali1{
+    background-image: url('image/formulaire.png');
+    background-repeat: no-repeat;
+    background-size: 600PX;
+    background-image: cover; 
+width: 500px;
+height: 500px;
+margin-left: 80px;
+border-radius: 50%;
+text-align: center;
+color: black;
+}
+
+.div_reali2{
+    background-image: url('image/portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: 212%;
+    background-image: cover;
+    width: 500px;
+    height: 500px;
+   margin-left: 15px;
+   border-radius: 50%; 
+   text-align: center;
+   color: black;
+}
+
+.div_reali3{
+    background-image: url('image/OPENCLASS.jpg');
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 665PX;
+    background-image: cover;
+    width: 500px;
+    height: 500px;
+   margin-left: 15px;
+   border-radius: 50%; 
+   text-align: center;
+   color: black;
+}
+
+.p_reali{
+    text-align: center;
+    color: sienna;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.h1_realisation{
+    padding-left: 35%;
+    padding-top: 5%;
+}
+.div_ecrit{
+    width: 100px;
+    height: 150px;
+}
+
+
+.form_cont{
+    background-image: url('image/pot.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: cover;
+     background-size: 1000px;
+    width: 1000px;
+    height: 800PX;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-right: 180px;
+    padding-left: 180px;
+    margin:auto;
+
+font-weight: bold;
+
+}
+
+.div_footer{
+    background-color: black;
+    width: 1400px;
+    height: 55px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 28px;
+    font-size: 25px;
+    display: flex;
+}
+
+.face{
+    background-image: url('image/facebook1.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-image: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 700px;
+}
+
+.twitter{
+    background-image: url('image/twitter.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-image: cover;
+    width: 50px;
+    height: 50px;
+    
+    margin-left: 10PX;
+}
+
+.linkedin{
+    background-image: url('image/linke.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-image: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.h1_contact{
+    padding-left: 50PX;
+    padding-top: 5%;
+
+}
+#submit{
+    background-color:blueviolet;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+}
